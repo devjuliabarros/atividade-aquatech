@@ -13,6 +13,7 @@
     color: #32B9CD;
     padding: 25px;
     border-bottom: 5px solid #32B9CD;
+    width: 100vw;
 }
 
 .header .container {
@@ -58,8 +59,46 @@
 }
 
 span {
-    font-weight: 900px;
+    font-weight: bolder;
 }
 
+/* Section Conteúdo */
 
+.social {
+    width: 100vw;
+    height: 400px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.social .boxes {
+    display: flex;
+    justify-content: space-between;
+    gap: 400px;
+}
+
+.social .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.social .box img {
+    width: 150px;
+    height: 150px;
+}
+
+.social h4 {
+    font-size: 20px;
+    color: deeppink;
+}
+
+.social p {
+    font-size: 18px;
+    text-align: center;
+}
