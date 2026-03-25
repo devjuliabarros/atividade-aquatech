@@ -36,6 +36,30 @@
     text-decoration: none;
 }
 
+/* Section Banner */
+
+.banner .container {
+    width: 100vw;
+    height: 500px;
+    background-image: url('/home/julia/atividade-aquatech/public/assets/imgs/bg-jelly-fish-para-home.png');
+    background-size: cover;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.banner .container p {
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+}
+
+span {
+    font-weight: 900px;
+}
 
 
 
